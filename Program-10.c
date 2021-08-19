@@ -17,7 +17,7 @@ int main()
    printf("The elements you entered are : \n");
    for(i=0;i<n;i++)
       {
-	 //print the array elements
+	  printf("\t%d",*(arr1+i));//print the array elements
 	  }
 	   return 0;
 }
